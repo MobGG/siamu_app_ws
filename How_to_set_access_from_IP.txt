@@ -1,0 +1,7 @@
+﻿1. เพิ่ม <binding protocol="http" bindingInformation="*:17312:192.168.43.161" /> ลงใน project site
+2. เปิด cmd as admin 
+3. พิมพ์ netsh http add urlacl url=http://192.168.43.161:17312/ user=everyone
+4. ปิด firewall
+
+
+10.255.44.71
